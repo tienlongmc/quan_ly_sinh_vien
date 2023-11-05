@@ -1,0 +1,40 @@
+
+h2{
+    text-align: center;
+}
+.label_form{
+    /* margin: 50px 30px; */
+    /* width: 200px; */
+}
+.input_form{
+    width: 100%;
+    display: flex; /* Sử dụng display: flex để các thẻ input trở thành các phần tử con của một container linh hoạt. */
+    justify-content: center; /* Các thẻ input sẽ được căn cách đều nhau. */
+    align-items: center; /* Các thẻ input sẽ được căn giữa theo chiều dọc. */
+    
+}
+.form{
+    width: 200px;
+    margin: 0 auto;
+    height: 500px;
+}
+table{
+    width: 100%;
+    margin-top: 50px;
+}
+td{
+    text-align: center;
+}
+#btn{
+    width: 207px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
